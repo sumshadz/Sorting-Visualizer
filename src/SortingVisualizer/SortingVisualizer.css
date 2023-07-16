@@ -45,6 +45,15 @@ button{
 	font-size: medium;
 	cursor: pointer;
 }
+.range{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+}
 @media screen and (max-width: 992px) {
 	.array-bar {
 		width: 2px;
