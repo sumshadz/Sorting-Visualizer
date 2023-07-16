@@ -117,9 +117,9 @@ render(){
 	</div>
 		<button onClick={()=>this.resetArray()} id="generateArray">Generate New Array</button>
 		<button onClick={()=>this.merge_Sort()}>Merge Sort</button>
-		<button onClick={()=>this.bubbleSort()}>Bubble Sort</button>
+		{/* <button onClick={()=>this.bubbleSort()}>Bubble Sort</button> */}
 		{/* <button onClick={()=>this.heapSort()}>Heap Sort</button> */}
-		{/* <button onClick={()=>this.quick_Sort()}>Quick Sort</button> */}
+		<button onClick={()=>this.quick_Sort()}>Quick Sort</button>
 		</div>
 		</div>
 	) 
